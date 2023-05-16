@@ -1,0 +1,6 @@
+# action.yml
+name: 'thiago-scherrer/climateclock-g-action'
+description: 'Action to update markdown with climateclock.world'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

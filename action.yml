@@ -10,6 +10,6 @@ runs:
         git config --global user.name \'GitHub Actions\' && \
         git config --global user.email \'actions@github.com\' && \
         git add clock.png && \
-        git commit -m \'chore: clock update\' && \
+        git commit -m \'clock update\' && \
         git push origin main\"
       shell: bash

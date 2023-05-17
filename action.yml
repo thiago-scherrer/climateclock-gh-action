@@ -4,8 +4,8 @@ description: 'Action to update markdown with climateclock.world'
 runs:
   using: "composite"
   steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - run: git pull origin main
+      shell: bash
 
     - run: docker run -v "$(pwd):/app" ghcr.io/thiago-scherrer/climateclock-gh-action:main
       shell: bash

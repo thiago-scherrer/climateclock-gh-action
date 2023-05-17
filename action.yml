@@ -4,5 +4,5 @@ description: 'Action to update markdown with climateclock.world'
 runs:
   using: "composite"
   steps:
-    - run: docker pull ghcr.io/thiago-scherrer/climateclock-gh-action:main ls
+    - run: docker run ghcr.io/thiago-scherrer/climateclock-gh-action:main ls
       shell: bash

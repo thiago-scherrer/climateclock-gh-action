@@ -18,7 +18,8 @@ runs:
     - run: git pull origin ${{ inputs.name }}
       shell: bash
 
-    - run: docker run -v "$(pwd):/app" -e JS_DELAY=${{ inputs.js_delay }} \
+    - run: |
+        docker run -v "$(pwd):/app" -e JS_DELAY=${{ inputs.js_delay }} \
         ghcr.io/thiago-scherrer/climateclock-gh-action:main 
       shell: bash
 

@@ -19,7 +19,7 @@ name: Update Climate Clock
 
 on:
   schedule:
-    - cron: "*/60 * * * *"
+    - cron: "*/59 * * * *"
 
 jobs:
   update-clock:
@@ -36,7 +36,7 @@ jobs:
             js_delay: 3000
 ```
 
-In this example, the workflow is triggered every 60 minutes.
+In this example, the workflow is triggered every 59 minutes.
 
 Create a markdown file, like README.md and then put this code:
 

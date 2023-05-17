@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Update Climate Clock
-        uses: thiago-scherrer/climateclock-g-action@main
+        uses: thiago-scherrer/climateclock-gh-action@main
         with:
             branch: main
             js_delay: 3000

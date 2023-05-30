@@ -1,5 +1,7 @@
 # climateclock-gh-action
 
+[![build](https://github.com/thiago-scherrer/climateclock-gh-action/actions/workflows/build_push.yml/badge.svg?branch=main)](https://github.com/thiago-scherrer/climateclock-gh-action/actions/workflows/build_push.yml)
+
 This GitHub Action allows you to update a Markdown file with the current climate clock from [climateclock.world](https://www.climateclock.world/).
 
 ## Motivation

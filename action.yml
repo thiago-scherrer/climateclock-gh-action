@@ -15,7 +15,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: git pull origin ${{ inputs.name }}
+    - run: git pull origin ${{ inputs.branch }}
       shell: bash
 
     - run: |
